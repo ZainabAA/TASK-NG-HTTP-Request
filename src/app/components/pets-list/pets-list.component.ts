@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { Pet } from '../../../data/pets';
 import { PetCardComponent } from '../pet-card/pet-card.component';
+import { Pet } from '../../pet';
 
 @Component({
   selector: 'app-pets-list',
